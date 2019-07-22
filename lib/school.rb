@@ -2,12 +2,12 @@ class School
   attr_accessor :name, :age, :grade
 
   def roster
-    roster = {}
+    @roster = {}
   end
 
   def initialize(name)
     @name = name
-    roster
+    @roster
   end
 
   def age=(age)
