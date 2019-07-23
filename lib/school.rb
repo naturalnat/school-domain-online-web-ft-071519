@@ -6,14 +6,6 @@ class School
     @roster= {}
   end
 
-  def age=(age)
-    @age = age
-  end
-
-  def age
-    @age
-  end
-
   def add_student(name, age)
     @name = name
     @age = age
