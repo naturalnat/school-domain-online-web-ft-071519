@@ -11,7 +11,7 @@ class School
   end
 
   def add_student(name, age)
-    @name = name
-    @age = age
+    @roster[grade] = name
+    @roster[gradee] = age
   end
 end
