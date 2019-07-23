@@ -19,6 +19,7 @@ class School
   end
 
   def add_student(name, age)
-    roster
+    @name = name
+    @age = name
   end
 end
