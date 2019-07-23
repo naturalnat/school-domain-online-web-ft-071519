@@ -20,6 +20,6 @@ class School
 
   def add_student(name, age)
     @name = name
-    @age = name
+    @age = age
   end
 end
