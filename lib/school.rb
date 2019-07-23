@@ -20,6 +20,6 @@ class School
   end
 
   def sort
-    @roster.sort_by {|k,v| v}.reverse
+    @roster.sort
   end
 end
