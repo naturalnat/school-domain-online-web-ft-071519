@@ -11,6 +11,6 @@ class School
   end
 
   def add_student(name, age)
-    @roster[gradee] = name
+    @roster[grade] = name
   end
 end
